@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>First Page</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    center {
+        margin-top: 50px;
+    }
+    h2 {
+        color: #333;
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+    div {
+        margin-bottom: 20px;
+    }
+    form {
+        display: inline-block;
+        margin-top: 10px;
+    }
+    input[type="submit"] {
+        padding: 12px 25px;
+        font-size: 16px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 200px;
+        margin-top: 10px;
+        transition: background-color 0.3s ease;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    input[type="submit"]:focus {
+        outline: none;
+    }
+    /* Optional: Style the form buttons as a group */
+    div form {
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+<center>
+
+<h2>Employee Record Management System</h2>
+
+<div>
+    <form action="http://localhost:9090/EmployeeRecordManagementSystem/add.html">
+        <input type="submit" value="ADD Employee"> 
+    </form>
+</div>
+<br>
+
+<div>
+    <form action="http://localhost:9090/EmployeeRecordManagementSystem/view.html">
+        <input type="submit" value="VIEW Employee"> 
+    </form>
+</div>
+<br>
+
+<div>
+    <form action="http://localhost:9090/EmployeeRecordManagementSystem/delete.html">
+        <input type="submit" value="DELETE Employee"> 
+    </form>
+</div>
+<br>
+
+<div>
+    <form action="http://localhost:9090/EmployeeRecordManagementSystem/update.html">
+        <input type="submit" value="UPDATE Employee"> 
+    </form>
+</div>
+
+</center>
+
+</body>
+</html>
